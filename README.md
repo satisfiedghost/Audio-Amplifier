@@ -13,6 +13,4 @@ a more expensive solution might be warranted.
 
 The three bypass caps on each +- power supply are absolutey necessary, the amplifier will distort horribly without them.
 
-# To Do
-I want to find a nice form factor to house the board. I'm thinking a wooden box would look sleek and has the advantage of 
-being largely non-conductive.
+![Schematic](/schematic.jpg?raw=true "")
