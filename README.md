@@ -1,6 +1,10 @@
 # Audio-Amplifier
 A simple audio amplifier, intended to drive larger (>25Ω) headphones.
 
+# ToDo
+I ran into some bypassing issues with the first board revision. 0.1uF caps need to be added directly to the power supplies
+of U1 and U2. Additinally, U1 should have an in-loop compensation circuit added to ease driving the capacitive load. f
+
 I chose Polypropylene as the material for my input capacitor, as they tend to have a lower distortion than others, at the
 expense of a larger form factor. 0.47uF lowered the -3dB point to 3Hz, which should exhibit acceptable filtering once
 the minimum range of human hearing is reached.
